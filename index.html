@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sports Hub</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#eef2f7;
+}
+
+header{
+background:#0d6efd;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+header h1{
+font-size:40px;
+}
+
+nav{
+background:#222;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-size:18px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ffd43b;
+}
+
+.hero{
+background:linear-gradient(to right,#0d6efd,#198754);
+color:white;
+padding:60px 20px;
+text-align:center;
+}
+
+.hero h2{
+font-size:45px;
+}
+
+.hero p{
+font-size:20px;
+margin-top:10px;
+}
+
+.container{
+width:90%;
+margin:auto;
+padding:40px 0;
+}
+
+.title{
+text-align:center;
+margin-bottom:30px;
+font-size:35px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,0,0,.15);
+padding:25px;
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.icon{
+font-size:70px;
+}
+
+.card h3{
+margin:15px 0;
+font-size:28px;
+}
+
+.card p{
+color:#555;
+margin-bottom:20px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#0d6efd;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+.btn:hover{
+background:#084298;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>?? Sports Hub</h1>
+<p>Your Ultimate Sports Website</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="football.html">Football</a>
+<a href="cricket.html">Cricket</a>
+<a href="basketball.html">Basketball</a>
+<a href="badminton.html">Badminton</a>
+<a href="f1.html">Formula 1</a>
+</nav>
+
+<div class="hero">
+<h2>Welcome to Sports Hub</h2>
+<p>Select your favourite sport below.</p>
+</div>
+
+<div class="container">
+
+<h2 class="title">Choose Your Sport</h2>
+
+<div class="cards">
+
+<div class="card">
+<div class="icon">?</div>
+<h3>Football</h3>
+<p>Leagues, players, tournaments and football rules.</p>
+<a href="football.html" class="btn">Open</a>
+</div>
+
+<div class="card">
+<div class="icon">??</div>
+<h3>Cricket</h3>
+<p>World Cups, IPL, famous players and records.</p>
+<a href="cricket.html" class="btn">Open</a>
+</div>
+
+<div class="card">
+<div class="icon">??</div>
+<h3>Basketball</h3>
+<p>NBA, teams, stars and championships.</p>
+<a href="basketball.html" class="btn">Open</a>
+</div>
+
+<div class="card">
+<div class="icon">??</div>
+<h3>Badminton</h3>
+<p>BWF tournaments, players and game rules.</p>
+<a href="badminton.html" class="btn">Open</a>
+</div>
+
+<div class="card">
+<div class="icon">???</div>
+<h3>Formula 1</h3>
+<p>Drivers, teams, Grand Prix races and records.</p>
+<a href="f1.html" class="btn">Open</a>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Sports Hub | Made with HTML & CSS</p>
+</footer>
+
+</body>
+</html>
